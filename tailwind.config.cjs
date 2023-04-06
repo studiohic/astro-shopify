@@ -7,6 +7,19 @@ module.exports = {
       padding: "1.5rem",
     },
     extend: {
+      colors: {
+          midnight: '#012B49',
+          background: '#172939',
+          bright: '#E6FF42',
+          putty: '#F8FAF2',
+          offwhite: '#FFFFFC',
+      },
+      fontFamily: {
+				unica: ['neue-haas-unica', 'sans-serif'],
+      },
+      letterSpacing: {
+				tiny: '0.02em',
+			},
       keyframes: {
         shake: {
           "0%": { transform: "translate(1px, 1px) rotate(0deg)" },

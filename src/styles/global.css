@@ -5,10 +5,12 @@
 @layer base {
   html {
     @apply scroll-smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   body {
-    @apply flex min-h-screen flex-col;
+    @apply font-unica flex min-h-screen flex-col bg-offwhite font-light text-midnight;
   }
 
   main {

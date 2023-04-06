@@ -1,0 +1,14 @@
+---
+import { storyblokEditable } from '@storyblok/astro'
+import Ticker from './Ticker.svelte'
+
+const { blok } = Astro.props
+---
+
+<section {...storyblokEditable(blok)} class='py-8 bg-bright'>
+  {blok.directive === 'load' && <Ticker blok={blok} client:load />}
+  {blok.directive === 'idle' && <Ticker blok={blok} client:idle />}
+  {blok.directive === 'visible' && <Ticker blok={blok} client:visible />}
+  
+</section>
+
