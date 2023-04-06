@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
   import Marquee from "svelte-fast-marquee";
   import { renderRichText } from "@storyblok/svelte";
   let play = true;
@@ -14,8 +14,8 @@
       </a>
     </div>
   {/each}
-</Marquee> -->
-<script>
+</Marquee>
+<!-- <script>
   import { storyblokEditable, renderRichText } from "@storyblok/svelte";
   import Marquee from "svelte-fast-marquee";
   let play = true;
@@ -33,4 +33,4 @@
       </div>
     {/each}
   </Marquee>
-</div>
+</div> -->
